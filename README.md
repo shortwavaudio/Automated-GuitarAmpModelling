@@ -2,7 +2,7 @@
 
 ## GuitarML Fork
 This fork adds Colab Training, wav file pre-processing, results plotting, and some helpful printouts during training.
-Use the example config "config/RNN3-acoustic1-pre.json" to train models for [NeuralPi](https://github.com/GuitarML/NeuralPi)
+Use the example config "config/RNN3-acoustic1-pre.json" to train models for [NeuralPi](https://github.com/GuitarML/NeuralPi)<br>
 Models for NeuralPi must have a size of 20.
 
 ```
