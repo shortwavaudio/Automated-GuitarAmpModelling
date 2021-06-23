@@ -11,7 +11,7 @@ cd Automated-GuitarAmpModelling
 git submodule update --init --recursive
 ```
 ```
-# Add your input.wav and output.wav, and add your config to the config directory.
+# Add your input.wav and output.wav to the top directory, and add your config to the config directory.
 # Name the .wav files and config file appropriately in the following command
 python prep_wav.py input.wav output.wav acoustic1-pre
 ```
