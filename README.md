@@ -7,6 +7,7 @@ Models for NeuralPi must have a size of 20.
 
 ```
 git clone https://github.com/GuitarML/Automated-GuitarAmpModelling.git
+cd Automated-GuitarAmpModelling
 !git submodule update --init --recursive
 ```
 ```
