@@ -8,22 +8,22 @@ Models for NeuralPi must have a size of 20.
 ```
 git clone https://github.com/GuitarML/Automated-GuitarAmpModelling.git
 cd Automated-GuitarAmpModelling
-!git submodule update --init --recursive
+git submodule update --init --recursive
 ```
 ```
 # Add your input.wav and output.wav, and add your config to the config directory.
 # Name the .wav files and config file appropriately in the following command
-!python prep_wav.py input.wav output.wav acoustic1-pre
+python prep_wav.py input.wav output.wav acoustic1-pre
 ```
 ```
 # Edit to use your config in the following command
 # The model will be located in Results/
-!python dist_model_recnet.py -l "RNN3-acoustic1-pre"
+python dist_model_recnet.py -l "RNN3-acoustic1-pre"
 ```
 ```
 # Edit your config name in the following command
 # The plots will be generated in the Results/modelName/ directory
-!python plot.py acoustic1-pre
+python plot.py acoustic1-pre
 ```
 
 This repository contains neural network training scripts and trained models of guitar amplifiers and distortion pedals. The 'Results' directory contains some example recurrent neural network models trained to emulate the ht-1 amplifier and Big Muff Pi fuzz pedal, these models are described in this [conference paper](https://www.dafx.de/paper-archive/2019/DAFx2019_paper_43.pdf)
