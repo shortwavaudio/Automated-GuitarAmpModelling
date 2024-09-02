@@ -1,1 +1,1 @@
-{"hidden_size": 32, "unit_type": "LSTM", "loss_fcns": {"ESR": 0.75, "DC": 0.25}, "pre_filt": "None", "device": "05-g20-profiles-rhythm", "file_name": "05-g20-profiles-rhythm"}
+{"hidden_size": 32, "unit_type": "LSTM", "loss_fcns": {"ESR": 0.75, "DC": 0.25}, "pre_filt": "None", "device": "2024-v1-G20-clean", "file_name": "2024-v1-G20-clean"}
