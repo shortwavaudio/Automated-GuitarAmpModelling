@@ -1,1 +1,8 @@
-{"hidden_size": 32, "unit_type": "LSTM", "loss_fcns": {"ESR": 0.75, "DC": 0.25}, "pre_filt": "None", "device": "2024-v1-G20-clean", "file_name": "2024-v1-G20-clean"}
+{
+  "hidden_size": 32,
+  "unit_type": "LSTM",
+  "loss_fcns": { "ESR": 0.75, "DC": 0.25 },
+  "pre_filt": "None",
+  "device": "2024-v2-G20-boost",
+  "file_name": "2024-v2-G20-boost"
+}
